@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+            <h1>Survey Form</h1>
+           
+            
+           
+            <form class="myform">
+                <p>Let us know u liked the site or not</p>
+
+                <div class="form-group">
+                    <label>Name:</label>
+                    <input type="text" name="name">
+                </div>
+           
+                <div>
+                   <div class="form-group">
+                        <label>Gender:</label>
+                        <select name="gender" id="">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+           
+                <div class="form-group">
+                    <label>Email:</label>
+                    <input type="text" name="email">
+                </div>
+           
+                <div>
+                    <div class="form-group">
+                        <label>Age:</label>
+                        <input type="number" name="age" value="20"> 
+                    </div>
+                </div>
+           
+                <div  class="form-group">
+                    <label>How likely would you suggest our website to a freind?:</label>
+                    <label class="form-group">
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark"></span>
+                        Definitely
+                    </label>
+                    <label class="form-group">
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark"></span>
+                        May be
+                    </label>
+                    <label class="form-group">
+                        <input type="radio" checked="checked" name="radio">
+                        <span class="checkmark"></span>
+                        Not sure
+                    </label>
+
+                </div>
+                <div class="form-group">
+                     <input class="button" type="submit" value="Submit" name="">
+                </div>     
+            </form>
+    </body>
+</html>

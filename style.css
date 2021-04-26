@@ -1,0 +1,111 @@
+body{
+    font: 15px/1.5 sans-serif;
+    padding: 10px;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background: #99aaab;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: #e44236 2px solid;
+    border-bottom: #e44236 2px solid;
+}
+header a{
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: black 2px solid;
+    padding: 15px;
+    font-weight: bold;
+}
+header li{
+    float: left;
+    display: inline;
+    padding:  15px 15px 15px 15px;
+
+}
+header .current a{
+    color: #ae1438;
+
+}
+header a:hover{
+    background: #4c4b4b;
+    color: blanchedalmond;
+}
+.box{
+    padding: 20px;
+    margin: 10px 0 10px 0;
+    min-height: 500px;
+    background: #99aaab;
+    border-top: #e44236 2px solid;
+    border-bottom: #e44236 2px solid;
+}
+.box1{
+ 
+        padding: 20px;
+        margin: 10px 0 10px 0;
+        min-height: 100px;
+        background: #99aaab;
+        border-top: #e44236 2px solid;
+        border-bottom: #e44236 2px solid;
+}
+.box h3{
+    color: black;
+    
+}
+.box li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline ;
+    line-height: 2;
+}
+.box li p{
+    font-size: 16px;
+}
+.box1{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.details{
+    text-decoration: none;
+    color: #2b1313;
+    transition:transform 0.3s ease-out;
+}
+.details:hover{
+
+    color: #f7f7f8;
+    transform: translateX(8px);
+}
+img{
+    height: 600px;
+    width: 800px;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid black;
+}
+footer{
+    background: #99aaab;
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: #e44236 2px solid;
+    border-bottom: #e44236 2px solid;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+@media(max-width:768px){
+    .box,.box1,.img,header,footer{
+        width: auto;
+    }
+
+}

@@ -1,0 +1,87 @@
+.navbar{
+    background-color: #333333;
+    padding: 15px;
+    
+}
+.navbar a{
+    float: none;
+    color: seashell;
+    padding:13px;
+    text-align: center;
+    
+}
+a:hover{
+    color: darkseagreen;
+}
+h2{
+    text-align: center;
+    word-spacing: .7em;
+    padding: 10px;
+    font-size: 30px;
+}
+h2:hover{
+    color: darkgoldenrod;
+}
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.container img{
+    
+    width: 450px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container p{
+    line-height: 2.5;
+    text-align: center;
+    text-decoration: black;
+}
+p:hover{
+    color: crimson;
+}
+.button1{
+    display: flex;
+    justify-content: center;
+}
+.button1 input:hover{
+    background-color: chartreuse;
+}
+
+
+.button1 input{
+    background-color: orangered;
+    padding: 10px 45px;
+    align-content: center;
+}
+footer p{
+    text-align: center;
+    color: seashell;
+    padding-top: 20px;
+    
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding-bottom: 20px;
+    
+}
+.button2 input{
+    background-color: orangered;
+    padding: 10px 60px;
+    font-size: 15px;
+    border-radius: 8px;
+
+}
+.button2 input:hover{
+    background-color: cornflowerblue;
+}
+footer{
+    background: #333333;
+    
+}
+

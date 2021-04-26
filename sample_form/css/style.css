@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+body{
+    background-color:#1abc9c;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+.myform{
+    margin: auto;
+    width: 80%;
+}
+.myform p{
+    text-align: center;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 25px;
+    
+}
+p:hover{
+    color: tomato;
+}
+.myform{
+    padding: 20px;
+    border: 3px solid whitesmoke;
+    box-sizing:border-box;
+    background-color:#eaf0f1;
+    border-style: dotted;
+}
+.myform .form-group label{
+    
+    font-family: 'Archivo Narrow', sans-serif;
+    display: inline-block;
+    font-size: 22px;
+    align-content: center;
+    
+    
+}
+.myform .form-group{
+    padding: 25px;
+    align-content: center;
+    
+}
+.myform .form-group input{
+    padding: 5px;
+    font-size: 15px;
+    text-align: justify;
+    vertical-align: middle;
+    
+}
+.myform .form-group select{
+    padding: 5px;
+    font-size: 17px;
+    
+}
+label:hover{
+    color: #ff3031;
+}
+select:hover{
+    color: #192a56;
+}
+.button[type="submit"]{
+    background-color: #2b2b52;
+    color: #ffffff;
+    padding: 10px 25px;
+    border:#99aaab;
+    border-style: ridge;
+    font-size: 15px;
+    
+    
+
+    
+}
+.button:hover{
+    background: tomato;
+}
+.button:active{
+    background-color: black;
+}

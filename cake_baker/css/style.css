@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Fredoka+One&family=JetBrains+Mono:wght@500&family=Piedra&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'JetBrains Mono', monospace;
+
+
+
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 20px;
+    border: 1px solid white;
+    transition: 0.6s ease;
+    font-size: 25px;
+}
+ul li a:hover{
+    background-color: #eaf0f1;
+    color: brown;
+}
+.main{
+    max-width: width 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    color:#000;
+    font-size: 65px;
+    
+}
+.button{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #eaf0f1;
+    color: brown;
+    transition: 0.6s ease;
+}
