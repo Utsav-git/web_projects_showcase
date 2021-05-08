@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myform{
+    width: 650px;
+    margin: auto;
+    font-size: 25px;
+}
+.form-group{
+    padding-top: 30px;
+}
+
+button{
+    margin-top: 30px;
+}
