@@ -16,8 +16,8 @@ body{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./img00.png);
     background-position: center;
     background-size: cover;
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
     
     
 }
@@ -77,8 +77,8 @@ body{
 /*START OF ABOUT SECTION*/
 .about-section{
     border-top: 5px solid red;
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
     height: 20vh;
     display: flex;
     flex-direction: column;
@@ -102,8 +102,8 @@ body{
 
 /*START OF WORK SECTION*/
 .work-section{
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,8 +146,8 @@ body{
 /*START OF CONTACT SECTION*/
 
 .contact-section{
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
     padding: 20px;
     background-color:#303841;
     border-top: 5px solid red;
@@ -189,8 +189,8 @@ body{
 footer{
     border-top: 3px solid red;
     border-bottom: 5px solid red;
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
     padding: 20px;
     background-color:#303841;
     display: flex;
